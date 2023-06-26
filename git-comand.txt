@@ -1,7 +1,6 @@
 #Comandos GIT
 
-#APRENDENDO SOBRE GIT
-
+#APRENDENDO SOBRE GIT com DEV MASTER TEAM
 
 marcelo@Marcelo-HP-Pavilion-G4:~/workspace/repositorio-git-docs$ git --version
 git version 2.34.1
