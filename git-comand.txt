@@ -1,7 +1,6 @@
 #Comandos GIT
 
-#APRENDENDO SOBRE GIT 
-
+#APRENDENDO SOBRE GIT
 
 
 marcelo@Marcelo-HP-Pavilion-G4:~/workspace/repositorio-git-docs$ git --version
