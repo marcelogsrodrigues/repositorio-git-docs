@@ -261,3 +261,41 @@ drwxrwxr-x 8 marcelo marcelo   4096 jun 28 10:05 .git
 -rw-rw-r-- 1 marcelo marcelo     43 jun  9 11:08 readme.txt
 marcelo@Marcelo-HP-Pavilion-G4:~/workspace/repositorio-git-docs$ 
 
+
+
+
+marcelo@Marcelo-HP-Pavilion-G4:~/workspace/repositorio-git-docs$ git remote -v
+main    https://github.com/marcelogsrodrigues/repositorio-git-docs.git (fetch)
+main    https://github.com/marcelogsrodrigues/repositorio-git-docs.git (push)
+repo-git-docs   https://github.com/marcelogsrodrigues/repositorio-git-docs.git (fetch)
+repo-git-docs   https://github.com/marcelogsrodrigues/repositorio-git-docs.git (push)
+marcelo@Marcelo-HP-Pavilion-G4:~/workspace/repositorio-git-docs$ git branch
+  developer
+* main
+marcelo@Marcelo-HP-Pavilion-G4:~/workspace/repositorio-git-docs$ git pull repo-git-docs main --allow-unrelated-histories
+From https://github.com/marcelogsrodrigues/repositorio-git-docs
+ * branch            main       -> FETCH_HEAD
+Merge made by the 'ort' strategy.
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+marcelo@Marcelo-HP-Pavilion-G4:~/workspace/repositorio-git-docs$ git status
+On branch main
+Your branch is ahead of 'repo-git-docs/main' by 12 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+marcelo@Marcelo-HP-Pavilion-G4:~/workspace/repositorio-git-docs$ git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 3.53 KiB | 1.17 MiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/marcelogsrodrigues/repositorio-git-docs.git
+   e356a54..63d61be  main -> main
+marcelo@Marcelo-HP-Pavilion-G4:~/workspace/repositorio-git-docs$ 
+marcelo@Marcelo-HP-Pavilion-G4:~/workspace/repositorio-git-docs$ 
+
+
